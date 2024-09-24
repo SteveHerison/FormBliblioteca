@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "GowunBatang";
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("/src/assets/fonts/GowunBatang-Bold.ttf") format("truetype");
+  }
+}
